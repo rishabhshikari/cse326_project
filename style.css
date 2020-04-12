@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../Images//Slider/bg-\ \(11\).jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     background-size: cover;
+     background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+     padding-bottom: 80px;
+     margin-bottom: 80px;
+    background-attachment: fixed;
+}
+.navbar{
+    
+    margin-top: 40px;
+    overflow: hidden;
+    top: 20px;
+    position: sticky;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0,0,0,0.5);
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+   margin-top: -48px;
+    margin-left:20px;
+    position: sticky;
+    line-height: 34px;
+    top: 0px;
+}
+.rightmenu{
+    float: right;
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+    width: 45%;
+    height: 100%;
+   
+
+}
+.rightmenu ul li 
+{
+
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+    line-height: 44px;
+    padding: 15px;
+   margin-left: 0px;
+
+}
+.rightmenu li a{
+    
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    letter-spacing: 0px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+   
+
+}
+#firstlist{
+    color:black;
+}
+.rightmenu li a:hover{
+    color:rgb(236, 181, 31);
+    
+}
+.rightmenu li ul li{
+    display: none;
+}
+.logo-text{
+    color: whitesmoke;
+    float: left;
+    width: 30px;
+    margin-top: -65px;
+    margin-left:20px;
+    position: sticky;
+    line-height: 30px;
+    font-size: 18px;
+    top: 32px;
+    
+}
+.text{
+    width: 100%;
+    margin-top: 18%;
+   /* color:rgb(219, 71, 71);*/
+   color: rgba(248, 28, 94, 0.849);
+
+    box-shadow: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 150%;
+ font-family:'Montserrat',sans-serif;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0px;
+}
+#button1{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    color: rgb(26, 26, 26);
+    font-family:'Montserrat',sans-serif;
+    transition: all ease 0.5s;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    
+}
+#button1:hover{
+   color: white;
+    background-color: rgba(248, 28, 94, 0.849);
+}
+#button2{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+   border-style: solid;
+    border:4px solid: white;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.050);
+    text-align: center;
+    color: white;
+    font-family:'Montserrat',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all ease 0.5s;
+    
+ 
+}
+#button2:hover{
+   
+    background-color: rgba(248, 28, 94, 0.849);
+}
+.pic-slider{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    overflow: hidden;
+    position: absolute;
+}
+.pic-slider> *{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1f1f1f;
+    animation: slide 12s infinite;
+
+}
+
+.pic-slider:nth-child(1){
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(Images/Slider/bg-\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.pic-slider:nth-child(1){
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(//Images/3.jpg;
+    background-size: cover;
+    background-position: center;
+
+}
